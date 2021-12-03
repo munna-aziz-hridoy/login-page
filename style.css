@@ -136,27 +136,26 @@ body {
   text-transform: capitalize;
 }
 
-.button {
-  width: 80%;
+.button button {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.button input[type="submit"] {
-  border: navajowhite;
-  outline: none;
-  background: linear-gradient(180deg, #d363f5, #f5a8ff);
   font-size: 1rem;
-  font-weight: 600;
-  color: white;
+  color: #fff;
+  position: absolute;
+  left: 35%;
+  padding: 0.7rem 2rem;
+  background-image: linear-gradient(to top, #d908fd, #ffbaf4);
   border-radius: 5rem;
-  margin-top: 2rem;
-  padding: 0.8rem 1.8rem;
+  color: #fff;
+  background-size: 200%;
+  border: none;
+  outline: none;
+  transition: all 0.6s;
   cursor: pointer;
-  transition: all 0.3s;
+  margin-top: 1rem;
 }
 
-.button input[type="submit"]:hover {
-  background: linear-gradient(0deg, #d363f5, #f5a8ff);
+.button button:hover {
+  background-position: bottom;
 }
